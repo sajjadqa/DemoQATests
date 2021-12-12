@@ -4,7 +4,7 @@ let login_page
 let profile_page
 let books_store
 
-  describe('DemoQA Books Store E2E user journey.', () => {
+  describe('DemoQA Books Store E2E user journey. <bookstore>', () => {
     before(() => {
       // runs once before the tests in the block
       cy.visit(`${Cypress.config('baseUrl')}/login`)

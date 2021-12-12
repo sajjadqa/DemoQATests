@@ -3,7 +3,7 @@ import DemoQaBookstore from '../pages/demoqa_bookstore_page'
 let login_page
 let home_page
 
-  describe('DemoQA Login tests', () => {
+  describe('DemoQA Login tests <bookstore>', () => {
     beforeEach(() => {
       // runs once before all tests in the block
       cy.visit(`${Cypress.config('baseUrl')}/login`)
