@@ -1,4 +1,4 @@
-# DemoQATests
+# DemoQA Tests
 
 A testing repository using Cypress to automate the Demo QA website's login and bookstore tests.
 
@@ -8,11 +8,11 @@ Clone this repository
 
 Simply run following command from root folder:
 
-npm install
+`npm install`
 
 ## Running Tests
 
 Run following command to run all tests:
 
-npx cypress run --env SUITE=bookstore
+`npx cypress run --env SUITE=bookstore`
 
